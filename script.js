@@ -89,6 +89,7 @@ function selecTile() {
 
 reset.addEventListener('click', () => {
     reset.style.display = "none";
+    score = 0;
     gameOver = false;
     document.getElementById("score").innerText = score;
 });
